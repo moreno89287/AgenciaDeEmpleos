@@ -1,0 +1,207 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    margin: 0;
+    }
+    
+    h1, h2 {
+    color: #333;
+    }
+    
+    a {
+    color: #0088cc;
+    }
+    
+    button[type="submit"] {
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+    background-color: #006699;
+    }
+    
+    /* Estilos para el encabezado */
+    header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    header h1 {
+    margin: 0;
+    font-size: 36px;
+    }
+    
+    /* Estilos para las secciones */
+    section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    }
+    
+    /* Estilos para los formularios */
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    form label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"],
+    form select,
+    form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    }
+    
+    form input[type="file"] {
+    margin-bottom: 15px;
+    }
+    
+    form textarea {
+    resize: vertical;
+    }
+    
+    /* Estilos para el pie de página */
+    footer {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+
+/* Estilos generales */
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.6;
+background-color: #f2f2f2;
+margin: 0;
+}
+
+h1, h2 {
+color: #333;
+}
+
+a {
+color: #0088cc;
+}
+
+/* Botón de envío */
+button[type="submit"] {
+background-color: #0088cc;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+background-color: #006699;
+}
+
+/* Encabezado */
+header {
+background-color: #fff;
+padding: 20px;
+text-align: center;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+margin: 0;
+font-size: 36px;
+}
+
+/* Secciones */
+section {
+background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+section h2 {
+margin-top: 0;
+font-size: 24px;
+}
+
+/* Formularios */
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 80%;
+margin: 0 auto;
+}
+
+form label {
+display: block;
+margin-bottom: 5px;
+font-size: 16px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+padding: 10px;
+margin-bottom: 15px;
+width: 100%;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 16px;
+}
+
+form input[type="file"] {
+margin-bottom: 15px;
+}
+
+form textarea {
+resize: vertical;
+}
+
+/* Pie de página */
+footer {
+background-color: #0088cc;
+color: #fff;
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+}
+
+footer p {
+margin: 0;
+font-size: 16px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solicitud de Empleos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilosAgenciaDeEmpleo.css">
+</head>
+<body>
+	<header>
+		<h1>Solicitud de Empleos</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Registro de Datos</h2>
+			<form action="#" method="post" id="registro-form">
+				<label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" id="nombre" required>
+				<label for="apellidos">Apellidos:</label>
+				<input type="text" name="apellidos" id="apellidos" required>
+				<label for="email">Correo electrónico:</label>
+				<input type="email" name="email" id="email" required>
+				<label for="telefono">Teléfono:</label>
+				<input type="tel" name="telefono" id="telefono" pattern="[0-9]{10}">
+				<label for="curriculum">Curriculum Vitae:</label>
+				<input type="file" name="curriculum" id="curriculum" accept=".pdf,.doc,.docx">
+			</section>
+			<section>
+				<h2>Agendar Citas</h2>
+				<label for="fecha">Fecha:</label>
+				<input type="date" name="fecha" id="fecha" required>
+				<label for="hora">Hora:</label>
+				<input type="time" name="hora" id="hora" required>
+			</section>
+			<section>
+				<h2>Solicitud de Empleos</h2>
+				<label for="empleo">Empleo solicitado:</label>
+				<select name="empleo" id="empleo" required>
+					<option value="">Seleccione una opción</option>
+					<option value="capturista">Capturista de datos</option>
+					<option value="recepcionista">Recepcionista</option>
+					<option value="auxiliar-operativo">Auxiliar operativo</option>
+					<option value="auxiliar-contable">Auxiliar contable</option>
+					<option value="seguridad-laboral">Seguridad laboral</option>
+				</select>
+				<label for="experiencia">Experiencia:</label>
+				<textarea name="experiencia" id="experiencia" rows="5" required></textarea>
+			</section>
+			<button type="submit" id="enviar-btn" onclick="enviarFormulario()">Enviar</button>
+		</form>
+	</main>
+	
+	<script src="enviarFormulario.js"></script>
+</body>
+</html>
